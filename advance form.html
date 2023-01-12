@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advance form.css">
+    <title>advance form </title>
+</head>
+<body>
+    <h1>12th admithion form</h1>
+    <form>
+          <label for="fname">name</label> <br>
+          <input type required="text" name="name" id="name">
+          <br>
+
+          <label for="email">email</label> <br>
+          <input type required="text" name="email" id="email" value="exp@simple.com">
+          <br>
+
+          <label for="pass">password</label> <br>
+          <input type="password" name="password" id="pass">
+          <br>
+
+          <label for="phone">phone number</label><br>
+          <input type required="tel" name="phone" id="phone"
+           pattern="[8-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="1234-56-7890">
+           <br>
+            
+           <label for="bday">birthday</label> <br>
+           <input type="date" id="bday" name="birthday">
+           <br>
+
+           <label for="admition">admition date</label> <br>
+           <input type="datetime-local" id="admition" name="admition">
+           <br>
+            
+           <label for="num"> how much time spend to study in week ? (between 10 to 30 ) </label><br>
+           <input type="number" id="num" name="quantity" min="10" max="30">
+           <br>
+
+           <label for="favcolor">favorite color</label><br>
+           <input type="color" id="favcolor" name="clr" value="#ff0000">
+           <br>
+
+           <label for="ability">learning ability (between 0 to 10)</label><br>
+           <input type="range" id="ability" name="ability" min="0" max="10">
+           <br>
+
+           <label for="file">input 10th marksheet</label><br>
+           <input type="file" id="myfile" name="doc">
+           <br>
+
+           <label for="mypic"> input 12th marksheet and board certificate</label><br>
+           <input type="file" name="pic" id=" mypic" accept="image/*" multiple>
+           <br>
+
+           <label for="mypic"> accept png and jpg file</label><br>
+           <input type="file" name="pic" id=" mypic" accept="image/png,image/jpg" multiple>
+           <br>
+
+           <input type="checkbox" name="remember" id="remember" value="is checked" checked>
+           <label for="remember" class="checkbox"> remember me</label>
+           <br>
+
+           <input type="checkbox" name="privecy" id="term" value="terms accepted">
+           <label for="terms" class="checkbox"> accept the terms os servic</label>
+           <br>
+           <label for="smg">messege</label><br>
+           <textarea name="messege" id="smg" cols="30" rows="10"></textarea>
+
+
+           <br>
+          <button type="submit">sing up</button>
+        
+
+    </form>
+</body>
+</html>
